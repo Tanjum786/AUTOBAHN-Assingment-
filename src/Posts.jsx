@@ -2,7 +2,7 @@ import { Fab, Tooltip, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
-import { CreatPost, Postcard } from "./Components ";
+import { CreatPostModal, Postcard } from "./Components ";
 import { useDispatch, useSelector } from "react-redux";
 import { Allpost } from "./Redux/thunks/PostThunk";
 
@@ -25,7 +25,7 @@ export const Posts = ({
 
   return (
     <>
-      <CreatPost
+      <CreatPostModal
         register={register}
         handleSubmit={handleSubmit}
         reset={reset}
