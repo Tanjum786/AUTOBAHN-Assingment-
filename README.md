@@ -1,5 +1,5 @@
 ## AUTOBAHN-ASSINGMENT
-# Feature contian:(Curd on post)
+# Feature contian:(CRUD on post)
 - Render all the post [100 posts]
 - user can Create the post
 - user can delete the 
